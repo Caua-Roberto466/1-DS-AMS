@@ -1,0 +1,27 @@
+h1{
+    background-color: rgb(39, 38, 38);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+body{ margin: 0;}
+.topo{
+  background-color: purple;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+span{
+    color: red;
+}
+.explicar{
+    padding: 8px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.para1{
+    font-size: 25px;
+    font-family: 'Gill Sans';
+}
