@@ -1,0 +1,18 @@
+:root{
+    --Cor_principal: rgb(236,1,1);
+    --Cor_secundária: rgb(230,230,0);
+    --Cor_h2: rgb(222,40,40);
+    --cor_texto: rgb(44,44,44);
+    
+    --borde_radius: 12px;
+    --box_shadow: rgba(0,0,0,0.3);
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-size: 12rem;
+    font-family: sans-serif;
+}
