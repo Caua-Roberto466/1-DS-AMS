@@ -17,6 +17,24 @@ body{
     font-family: sans-serif;
 }
 
-img{
+.empresa{
+    display: flex;
+}
+
+.empresa img{
     width: 50px;
+    height: 51px;
+}
+
+header{
+    background-color: var(--Cor_principal);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.linksh{
+    
 }
