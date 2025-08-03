@@ -21,6 +21,10 @@ body{
     display: flex;
 }
 
+.empresa h1{
+    color: white;
+}
+
 .empresa img{
     width: 50px;
     height: 74px;
@@ -44,7 +48,7 @@ header{
     color: white;
     text-decoration: none;
     overflow: hidden;
-    margin-right: 10px;
+    margin-right: 15px;
     font-size: 19px;
 }
 
@@ -79,35 +83,4 @@ header{
     transition: 0.3s;
 }
 
-h3{
-    text-align: center;
-}
 
-.tabela{
-    display: block;
-    margin: auto;
-    width: 600px;
-}
-
-table{
-    border: 1px black solid;
-    width: 600px;
-    border-collapse: collapse;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-}
-
-th, td {
-  border: 1px solid #000000;
-  padding: 12px;
-  text-align: center;
-}
-
-thead {
-  background-color: #ff0000;
-  color: white;
-}
-
-tbody tr:hover {
-  background-color: #e0e0e0; /* hover effect */
-}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/form.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="empresa">
+                <img src="../IMG/logo.png" alt="Logo da empresa">
+                <h1>Muscle Legends</h1>
+            </div>
+            <div class="linksh">
+                <a href="#" class="a"><b>Profissionais da área</b></a>
+                <a href="#" class="a"><b>Perfil</b></a>
+                <a href="#" class="a"><b>Academias próximas</b></a>
+                <button><a href="#"><b>Entrar</b></a></button>
+                <button class="cadastro"><a href="#" class="lcadastro"><b>Cadastre-se</b></a></button>
+            </div>
+        </div>
+    </header>
+
+    <form action="#">
+        <h3>Cadastro</h3>
+        <div class="nome">
+            <label for="nome" class="nomeC">Nome completo</label> <br>
+            <input type="text" id="nome" name="nome" placeholder="Nome completo" required>
+        </div>
+        <div class="email">
+            <label for="email" class="Email">Email</label> <br>
+            <input type="email" id="email" name="email" required placeholder="Email">
+        </div>
+        <div class="senha">
+            <label for="senha" class="Senha">Senha</label> <br>
+            <input type="password" name="senha" id="senha" required placeholder="Senha">
+        </div>
+        <div class="genero">
+            <label for="genero" class="Genero">Genêro (opicional)</label> <br>
+            <div class="radio">
+                <input type="radio" name="genero" id="masc" value="masculino">
+                <label for="genero" class="gen">Masculino</label>
+                <input type="radio" name="genero" id="femi" value="feminino">
+                <label for="genero" class="gen">Feminino</label>
+                <input type="radio" name="genero" id="outro" value="outro">
+                <label for="genero" class="gen">Outro</label>
+            </div>
+        </div>
+        <div class="estado">
+            <label for="estado">Estado</label> <br>
+            <select name="estado" id="estado" required>
+                <option value="selecione" selected>Selecione um estado</option>
+                <!--Norte-->
+                <option value="amazonas">Amazonas</option>
+                <option value="acre">Acre</option>
+                <option value="roraima">Roraima</option>
+                <option value="rondonia">Rondônia</option>
+                <option value="amapa">Amapá</option>
+                <option value="para">Pará</option>
+                <option value="tocantins">Tocantins</option>
+                <!--Nordeste-->
+                <option value="alagoas">Alagoas</option>
+                <option value="piaui">Piauí</option>
+                <option value="bahia">Bahia</option>
+                <option value="sergipe">Sergipe</option>
+                <option value="pernambuco">Pernambuco</option>
+                <option value="maranhao">Maranhão</option>
+                <option value="ceara">Ceará</option>
+                <option value="rio_grande_norte">Rio Grande do Norte</option>
+                <option value="paraiba">Paraíba</option>
+                <!--sul-->
+                <option value="parana">Paraná</option>
+                <option value="santa_catarina">Santa Catarina</option>
+                <option value="rio_grande_sul">Rio Grande do Sul</option>
+                <!--Sudeste-->
+                <option value="sao_paulo">São Paulo</option>
+                <option value="rio-janeiro">Rio de Janeiro</option>
+                <option value="minas_gerais">Minas Gerais</option>
+                <option value="espirito_santo">Espirito Santo</option>
+                <!--Centro-Oeste-->
+                <option value="mato_grosso">Mato Grosso</option>
+                <option value="mato_grosso_sul">Mato Grosso do Sul</option>
+                <option value="goias">Goiás</option>
+                <option value="destritio_federal">Destrito Federal</option>
+            </select>
+        </div>
+        <div class="menssagem">
+            <label for="menssagem">Deixe sua menssagem</label> <br>
+            <textarea name="menssagem" id="menssagem"></textarea>
+        </div>
+
+        <div class="envi">
+            <input type="submit" value="Enviar" id="enviar">
+        </div>
+    </form>
+</body>
+</html>
