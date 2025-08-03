@@ -23,7 +23,7 @@ body{
 
 .empresa img{
     width: 50px;
-    height: 51px;
+    height: 74px;
 }
 
 header{
@@ -36,5 +36,78 @@ header{
 }
 
 .linksh{
+    align-items: center;
+    display: flex;
+}
+
+.linksh .a{
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+    margin-right: 10px;
+    font-size: 19px;
+}
+
+.linksh a{
+    color: white;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.linksh button{
+    margin-right: 10px;
+    background-color: transparent;
+    padding: 5px;
+    border: 3px yellow solid;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    font-size: 19px;
+}
+
+.linksh button:hover{
+    background-color: yellow;
+    transition: 0.3s;
+}
+
+.linksh .cadastro{
+    background-color: yellow;
+}
+
+.linksh .lcadastro:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+h3{
+    text-align: center;
+}
+
+.tabela{
+    display: block;
+    margin: auto;
+    width: 600px;
+}
+
+table{
+    border: 1px black solid;
+    width: 600px;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 12px;
+  text-align: center;
+}
+
+thead {
+  background-color: #ff0000;
+  color: white;
+}
+
+tbody tr:hover {
+  background-color: #e0e0e0; /* hover effect */
 }
