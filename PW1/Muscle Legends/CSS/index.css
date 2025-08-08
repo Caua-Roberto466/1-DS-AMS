@@ -3,6 +3,20 @@ h3{
     text-align: center;
 }
 
+.servicos{
+  width: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-servicos{
+  width: 200px;
+  height: 230px;
+  border: 1px red solid;
+  border-radius: 20px;
+  padding: 6px;
+}
+
 .tabela{
     display: block;
     margin: auto;
