@@ -29,9 +29,11 @@ h2{
     color: white;
 }
 
-.empresa img{
-    width: 50px;
-    height: 74px;
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-top: 10px;
 }
 
 header{

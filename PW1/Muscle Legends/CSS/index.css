@@ -3,7 +3,12 @@ h3{
     text-align: center;
 }
 
-.servicos{
+.servico{
+  width: 800px;
+  margin: auto;
+}
+
+.servicosC{
   width: 800px;
   display: flex;
   justify-content: center;
@@ -11,16 +16,30 @@ h3{
 
 .card-servicos{
   width: 200px;
-  height: 230px;
+  height: 225px;
   border: 1px red solid;
   border-radius: 20px;
-  padding: 6px;
+  padding: 10px;
+  font-size: 18px;
+  color: #303030;
+  margin-right: 20px;
+}
+
+.card-servicos:hover{
+  transition: 0.3s;
+  width: 235px;
+  height: 255px;
+  font-size: 22px;
+  margin-right: 25px;
+  box-shadow: 3px 3px 0px 3px rgba(0, 0, 0, 0.2);
+  
 }
 
 .tabela{
     display: block;
     margin: auto;
     width: 600px;
+    margin-bottom: 50px;
 }
 
 table{

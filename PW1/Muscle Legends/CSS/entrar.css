@@ -1,0 +1,85 @@
+form{
+    width: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    border: 2px red solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+form h3{
+    margin: 0;
+    background-color: red;
+    color: white;
+    padding: 14px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    text-align: center;
+    font-size: 37px;
+}
+
+.nome{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#nome{
+    width: 250px;
+    height: 30px;
+    border: 2px yellow solid;
+    border-radius: 9px;
+}
+
+.email{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#email{
+    width: 250px;
+    height: 30px;
+    border: 2px yellow solid;
+    border-radius: 9px;
+}
+
+.senha{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+#senha{
+    width: 250px;
+    height: 30px;
+    border: 2px yellow solid;
+    border-radius: 9px;
+}
+
+label{
+    font-size: 22px;
+    color: #3f3f3f;
+}
+
+.envi{
+    margin-bottom: 10px;
+}
+
+#enviar{
+    color: #3f3f3f;
+    background-color: transparent;
+    width: 100px;
+    height: 40px;
+    border: 2px red solid;
+    border-radius: 9px;
+    font-size: 20px;
+}
+
+#enviar:hover{
+    background-color: red;
+    color: wheat;
+    transition: 0.3s;
+}
