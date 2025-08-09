@@ -3,6 +3,16 @@ h3{
     text-align: center;
 }
 
+.header_home{
+  background-image: url(../IMG/Banner-index.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white;
+  margin: 0;
+  height: 500px;
+}
+
 .servico{
   width: 800px;
   margin: auto;
