@@ -54,9 +54,10 @@
     </section>
 
     <section class="tabela">
-        <h3>Nossos Profissionais</h3>
+        <h2>Nossos Profissionais</h2>
         <table>
         <thead>
+            <!--Cabeça da tabela-->
             <tr>
                 <th>Nome</th>
                 <th>Área de atuação</th>
@@ -64,6 +65,7 @@
             </tr>
         </thead>
         <tbody>
+            <!--Corpo da tabela-->
             <tr>
                 <td>João Alves</td>
                 <td>Personal Trainer</td>
@@ -87,5 +89,77 @@
         </tbody>
     </table>
     </section>
+
+    <section class="nossas-academias">
+        <!--Textos que ficarão na esquerda-->
+        <div class="textos">
+            <h2>Nossas Academias</h2>
+            <p>
+                Não tem uma academia que aceite você? Não se preocupe! Nossas academias estão disponíveis por todo o país. Aqui você pode se inscrever tanto presencialmente, quanto online, e caso você não goste, pode pedir reembolso dentro de 1 mês.
+                <br>
+                Academias totalmente adaptáveis para suas necessidades,
+            </p>
+        </div>
+        <!--Imagem que fica na direita-->
+        <div class="imagem">
+            <img src="../IMG/academia-home.png" alt="Imagem de uma academia com destaque vermelho" id="academia">
+        </div>
+    </section>
+
+    <section class="funcionarios">
+    <h2>Veja Opiniões de nossos funcionários</h2>
+
+    <div class="tabs">
+        <button class="tab-btn active" data-tab="nutricionista">Nutricionista</button>
+        <button class="tab-btn" data-tab="personal">Personal Trainer</button>
+        <button class="tab-btn" data-tab="psicologa">Psicóloga</button>
+    </div>
+
+    <div class="tab-content active" id="nutricionista">
+        <div class="nutri_perfil">
+            <img src="../IMG/joao-algusto.png" alt="Foto de um nutricionista experiente" class="jalgusto">
+            <p class="card-p"><b>João Algusto de Lima</b></p>
+        </div>
+        <p>Nutricionista há 15 anos</p>
+        <p>
+            Em todos os anos da minha carreira, eu nuca consegui atender tantas pessoas de forma rápida e eficiente, muito obrigado Muscle Legends! 
+            <br>
+            Só nesse último ano trabalhando com vocês eu já mudie inúmeras vidas, espero que possamos trabalhar juntos por mais tempo!
+        </p>
+    </div>
+
+    <div class="tab-content" id="personal">
+        <div class="person_perfil">
+            <img src="../IMG/Vitor-albuquerque.png" alt="Foto de um personal trainer" class="jalgusto">
+            <p class="card-p"><b>Vitor Albuquerque Freitas</b></p>
+        </div>
+        <p>Personal Trainer há 5 anos</p>
+        <p>
+            É incrível como a internet abriu as portas para coisas desse tipo, poder ajudar alunos com dificuldades, através da minha casa ou de qualquer lugar. Eu gosto de ver a evolção pessoalmente, mas era difícil de se fazer estando no outro lado do país, mas agora, isso não é um problema.
+            <br>
+            Espero que esse contrato dure anos! Para eu poder ajudar essas pessoas.
+        </p>
+    </div>
+
+    <div class="tab-content" id="psicologa">
+        <div class="psico_perfil">
+            <img src="../IMG/Maria-duarte.png" alt="Foto de uma psicóloga" class="jalgusto">
+            <p class="card-p"><b>Maria Duarte</b></p>
+        </div>
+        <p>Psicóloga há 8 anos</p>
+        <p>
+            Quando eu tinha uma clínica, eu atendia uma boa quantia, mas com a pandemia isso ficou bem mais complicado, se a Muscle Legends existisse nesse período, um contato com clientes fácil e seguro, sem ter as limitações físicas, e que abrange todo o país, incrível!
+            <br>
+            Sem dúvidas um projeto que deve viver por anos, pois isso é algo que revolucionou o  mercado.
+        </p>
+    </div>
+</section>
+
+
+
+    <footer>
+
+    </footer>
+    <script src="../JavaScript/tabs.js"></script>
 </body>
 </html>
