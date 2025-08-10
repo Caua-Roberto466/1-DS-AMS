@@ -37,5 +37,5 @@ document.getElementById('formLogin').addEventListener('submit', function(event) 
     // Se passou em todas as verificações
     alert("Login realizado com sucesso!");
     // Redirecionar para a página principal
-    window.location.href = "index.html";
+    window.location.href = "perfil.html";
 });

@@ -1,16 +1,26 @@
+:root{
+    --Cor_principal: rgb(236,1,1);
+    --Cor_secundária: rgb(230,230,0);
+    --Cor_h2: rgb(222,40,40);
+    --cor_texto: rgb(44,44,44);
+    
+    --borde_radius: 12px;
+    --box_shadow: rgba(0,0,0,0.3);
+}
+
 form{
     width: 500px;
     display: block;
     margin: auto;
     margin-top: 30px;
-    border: 2px red solid;
+    border: 2px var(--Cor_principal) solid;
     border-radius: 20px;
     text-align: center;
 }
 
 form h3{
     margin: 0;
-    background-color: red;
+    background-color: var(--Cor_principal);
     color: white;
     padding: 14px;
     border-top-left-radius: 16px;
@@ -28,7 +38,7 @@ form h3{
 #nome{
     width: 250px;
     height: 30px;
-    border: 2px yellow solid;
+    border: 2px var(--Cor_secundária) solid;
     border-radius: 9px;
 }
 
@@ -41,7 +51,7 @@ form h3{
 #email{
     width: 250px;
     height: 30px;
-    border: 2px yellow solid;
+    border: 2px var(--Cor_secundária) solid;
     border-radius: 9px;
 }
 
@@ -55,7 +65,7 @@ form h3{
 #senha{
     width: 250px;
     height: 30px;
-    border: 2px yellow solid;
+    border: 2px var(--Cor_secundária) solid;
     border-radius: 9px;
 }
 
@@ -74,7 +84,7 @@ label{
 }
 
 .radio {
-  border: 2px yellow solid;
+  border: 2px var(--Cor_secundária) solid;
   border-radius: 9px;
   width: 300px;
   margin: 8px auto; /* centraliza horizontalmente */
@@ -92,7 +102,7 @@ label{
 #estado{
     width: 250px;
     background-color: transparent;
-    border: 2px yellow solid;
+    border: 2px var(--Cor_principal) solid;
     height: 30px;
     border-radius: 9px;
 }
@@ -105,7 +115,7 @@ label{
     width: 300px;
     height: 200px;
     resize: none;
-    border: 2px yellow solid;
+    border: 2px var(--Cor_secundária) solid;
     border-radius: 9px;
 }
 
@@ -118,13 +128,13 @@ label{
     background-color: transparent;
     width: 100px;
     height: 40px;
-    border: 2px red solid;
+    border: 2px var(--Cor_principal) solid;
     border-radius: 9px;
     font-size: 20px;
 }
 
 #enviar:hover{
-    background-color: red;
+    background-color: var(--Cor_principal);
     color: wheat;
     transition: 0.3s;
 }

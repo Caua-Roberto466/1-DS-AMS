@@ -1,18 +1,120 @@
-/*Personalização da tabela*/
+:root{
+    --Cor_principal: rgb(236,1,1);
+    --Cor_secundária: rgb(230,230,0);
+    --Cor_h2: rgb(222,40,40);
+    --cor_texto: rgb(44,44,44);
+    
+    --borde_radius: 12px;
+    --box_shadow: rgba(0,0,0,0.3);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
 h3{
     text-align: center;
 }
 
+/*Personalização do banner*/
+
 .header_home{
   background-image: url(../IMG/Banner-index.png);
   background-size: cover;
-  background-position: top;
+  background-position: bottom;
   background-repeat: no-repeat;
   color: white;
   margin: 0;
   height: 500px;
 }
 
+.header_home h2{
+  margin: 0;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.ContainerH{
+  display: flex;
+  height: 470px;
+  justify-content: space-between;
+}
+
+.containerHH {
+    display: flex;
+    flex-direction: column; /* coloca as duas divs em coluna */
+    height: 470px; /* ocupa toda a altura do banner */
+    padding: 20px;
+}
+
+.convite {
+    flex: 2; /* ocupa mais espaço vertical */
+    max-width: 500px; /* largura maior */
+}
+
+.cadsHH {
+    flex: 1; /* ocupa menos espaço vertical */
+    max-width: 480; /* largura menor */
+    align-self: flex-start; /* garante que fique à esquerda */
+    display: flex;
+    flex-direction: column; /* botão e texto colados embaixo */
+}
+
+.cadsHH h3 {
+    text-align: center; /* texto centralizado */
+    width: 100%; /* ocupa toda a largura da coluna */
+    margin-bottom: 5px; /* aproxima do botão */
+    font-size: 25px;
+}
+
+.cadsHH a{
+    color: white;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.cadsHH p {
+    font-size: 16px;
+    max-width: 450px; /* largura máxima para melhor leitura */
+    line-height: 1.4;
+    align-self: center;
+}
+
+.cadsHH button{
+    align-self: center;
+    margin-bottom: 10px;
+    background-color: transparent;
+    padding: 5px;
+    border: 3px var(--Cor_secundária) solid;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    font-size: 19px;
+}
+
+.cadsHH button:hover{
+    background-color: var(--Cor_secundária);
+    transition: 0.3s;
+}
+
+.cadsHH .cadastro{
+    background-color: var(--Cor_secundária);
+}
+
+.cadsHH .lcadastro:hover{
+    color: var(--Cor_principal);
+    transition: 0.3s;
+}
+
+.profissionais{
+  justify-content: right;
+  align-self: baseline;
+  max-width: 450px;
+  margin-top: 230px;
+}
+
+/*Personalização dos nossos serviços*/
 .servico{
   width: 800px;
   margin: auto;
@@ -27,7 +129,7 @@ h3{
 .card-servicos{
   width: 200px;
   height: 225px;
-  border: 1px red solid;
+  border: 1px var(--Cor_principal) solid;
   border-radius: 20px;
   padding: 10px;
   font-size: 18px;
@@ -45,6 +147,9 @@ h3{
   
 }
 
+
+
+/*Personalização da tabela*/
 .tabela{
     display: block;
     margin: auto;
@@ -67,7 +172,7 @@ th, td {
 }
 
 thead {
-  background-color: #ff0000;
+  background-color: var(--Cor_principal);
   color: white;
 }
 
