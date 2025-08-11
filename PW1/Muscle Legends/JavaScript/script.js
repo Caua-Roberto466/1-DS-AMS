@@ -64,7 +64,10 @@ document.querySelector('form').addEventListener('submit', function(event) { //Pe
 
     localStorage.setItem('idade_user', dados.idade);
 
+    localStorage.setItem('nome_user', dados.nome);
+
     alert('Cadastro salvo com sucesso!'); //Exibe o alerta de que foi salvo
     document.querySelector('form').reset(); //Limpa todo o formulário
+    window.location.href = 'entrar.html';
 
 });

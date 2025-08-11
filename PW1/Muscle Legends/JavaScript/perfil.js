@@ -5,6 +5,8 @@ window.onload = function() {
     const alturaElement = document.getElementById('altura-user');
     const idadeUser = localStorage.getItem('idade_user');
     const idadeElement = document.getElementById('idade-user')
+    const nomeI = localStorage.getItem('nome_user');
+    const nomeH = document.getElementById('nome-user');
 
     const imc = pesoUser/(alturaUser*alturaUser)
     const imcH = document.getElementById('imc-user')
@@ -47,5 +49,15 @@ window.onload = function() {
         imcH.style.textAlign = 'center'; // Centralizando o texto
         imcH.style.fontSize = '20px'; // Tamanho da fonte (opcional)
         imcH.style.fontWeight = 'bold'; // Negrito (opcional)
+    }
+
+    if (nomeI) {
+        nomeH.textContent = `${nomeI}`;
+        
+        // Estilizando o elemento
+        nomeH.style.color = 'black'; // Cor do texto
+        nomeH.style.textAlign = 'center'; // Centralizando o texto
+        nomeH.style.fontSize = '20px'; // Tamanho da fonte (opcional)
+        nomeH.style.fontWeight = 'bold'; // Negrito (opcional)
     }
 };
