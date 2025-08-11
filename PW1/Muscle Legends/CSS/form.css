@@ -16,6 +16,7 @@ form{
     border: 2px var(--Cor_principal) solid;
     border-radius: 20px;
     text-align: center;
+    margin-bottom: 70px;
 }
 
 form h3{
@@ -69,6 +70,33 @@ form h3{
     border-radius: 9px;
 }
 
+.peso{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#peso-cad{
+    width: 250px;
+    height: 30px;
+    border: 2px var(--Cor_secundária) solid;
+    border-radius: 9px;
+}
+
+.nascimento{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#nasci{
+    width: 250px;
+    height: 30px;
+    border: 2px var(--Cor_secundária) solid;
+    border-radius: 9px;
+}
+
+
 label{
     font-size: 22px;
     color: #3f3f3f;
@@ -102,7 +130,7 @@ label{
 #estado{
     width: 250px;
     background-color: transparent;
-    border: 2px var(--Cor_principal) solid;
+    border: 2px var(--Cor_secundária) solid;
     height: 30px;
     border-radius: 9px;
 }
@@ -148,4 +176,10 @@ option{
 select{
     font-size: 18px;
     color: #3f3f3f;
+}
+
+.entre{
+    color: var(--Cor_principal);
+    text-decoration: none;
+    overflow: hidden;
 }

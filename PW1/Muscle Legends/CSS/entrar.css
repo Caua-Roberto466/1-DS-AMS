@@ -93,3 +93,9 @@ label{
     color: wheat;
     transition: 0.3s;
 }
+
+.cadastre{
+    color: var(--Cor_principal);
+    text-decoration: none;
+    overflow: hidden;
+}

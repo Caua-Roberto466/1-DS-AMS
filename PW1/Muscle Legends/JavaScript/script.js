@@ -28,13 +28,18 @@ document.querySelector('form').addEventListener('submit', function(event) { //Pe
         senha: document.getElementById('senha').value,
         genero: document.querySelector('input[name="genero"]:checked')?.value || '',
         estado: document.getElementById('estado').value,
-        mensagem: document.getElementById('menssagem').value
+        mensagem: document.getElementById('menssagem').value,
+        pesocad: document.getElementById('peso-cad').value
     };
 
-    // Adiciona e salva no localStorage
+    // Adiciona o peso à lista de cadastros
     cadastros.push(dados); //Adiciona os dados na lista de cadastro
-    localStorage.setItem('cadastros', JSON.stringify(cadastros)); //transforma isso em String
+    localStorage.setItem('cadastros', JSON.stringify(cadastros));//transforma isso em String
+
+    // Armazena o peso do usuário separadamente
+    localStorage.setItem('peso_user', dados.pesocad);
 
     alert('Cadastro salvo com sucesso!'); //Exibe o alerta de que foi salvo
     document.querySelector('form').reset(); //Limpa todo o formulário
+
 });
