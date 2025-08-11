@@ -21,6 +21,25 @@ document.querySelector('form').addEventListener('submit', function(event) { //Pe
         erroEmail.style.display = "none"; //Esconde a menssagem
     }
 
+    // Pega a data de nascimento
+    const dataNascimento = document.getElementById('nasci').value;
+    const hoje = new Date();
+    const nascimento = new Date(dataNascimento);
+
+    // Calcula a idade
+    let idade = hoje.getFullYear() - nascimento.getFullYear();
+    const mesAtual = hoje.getMonth();
+    const diaAtual = hoje.getDate();
+    const mesNascimento = nascimento.getMonth();
+    const diaNascimento = nascimento.getDate();
+    
+
+    // Ajusta se ainda não fez aniversário este ano
+    if (mesAtual < mesNascimento || (mesAtual === mesNascimento && diaAtual < diaNascimento)) {
+        idade--;
+    }
+
+
     // Coletar os demais dados
     const dados = { //É onde vai guarda os dados pegos no formulário
         nome: document.getElementById('nome').value,
@@ -29,7 +48,9 @@ document.querySelector('form').addEventListener('submit', function(event) { //Pe
         genero: document.querySelector('input[name="genero"]:checked')?.value || '',
         estado: document.getElementById('estado').value,
         mensagem: document.getElementById('menssagem').value,
-        pesocad: document.getElementById('peso-cad').value
+        pesocad: document.getElementById('peso-cad').value,
+        alturac: document.getElementById('alturac').value,
+        idade: idade
     };
 
     // Adiciona o peso à lista de cadastros
@@ -38,6 +59,10 @@ document.querySelector('form').addEventListener('submit', function(event) { //Pe
 
     // Armazena o peso do usuário separadamente
     localStorage.setItem('peso_user', dados.pesocad);
+
+    localStorage.setItem('altura_user', dados.alturac);
+
+    localStorage.setItem('idade_user', dados.idade);
 
     alert('Cadastro salvo com sucesso!'); //Exibe o alerta de que foi salvo
     document.querySelector('form').reset(); //Limpa todo o formulário
