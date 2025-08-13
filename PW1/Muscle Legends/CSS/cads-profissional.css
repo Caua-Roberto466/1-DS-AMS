@@ -1,0 +1,66 @@
+:root{
+    --Cor_principal: rgb(236,1,1);
+    --Cor_secundária: rgb(255, 255, 17);
+    --Cor_h2: rgb(222,40,40);
+    --cor_texto: rgb(44,44,44);
+    
+    --borde_radius: 12px;
+    --box_shadow: rgba(0,0,0,0.3);
+}
+
+main{
+    border: 2px var(--Cor_principal) solid;
+    border-radius: 20px; 
+    width: 650px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h2{
+    margin: 0;
+    background-color: var(--Cor_principal);
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    color: white;
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+}
+
+label{
+    color: #303030;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 58px;
+}
+
+
+/*Coluna 1*/
+.colun1{
+    flex-direction: column;
+    width: 323px;
+}
+
+img {
+    width: 200px;   /* largura fixa */
+    height: 200px;  /* altura fixa */
+    object-fit: cover; /* cobre todo o espaço cortando excesso */
+    object-position: center; /* centraliza o recorte */
+    border-radius: 100%; /* opcional: cantos arredondados */
+    border: 2px var(--Cor_principal) solid;
+    margin: 6px;
+    margin-bottom: 10px;
+}
+
+#telefone{
+    width: 200px;
+    height: 30px;
+    border: 2px solid var(--Cor_secundária);
+    border-radius: 12px;
+    margin: 5px;
+    margin-left: 7px;
+}

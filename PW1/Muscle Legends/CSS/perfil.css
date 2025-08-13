@@ -45,6 +45,7 @@ h2{
     display: flex;
     align-self: center;
     margin-bottom: 10px;
+    max-width: 200px;
 }
 
 #id-user{

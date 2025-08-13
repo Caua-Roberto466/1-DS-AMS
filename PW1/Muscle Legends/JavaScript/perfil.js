@@ -42,7 +42,7 @@ window.onload = function() {
     }
 
     if (imc) {
-        imcH.textContent = `${imc} IMC`;
+        imcH.textContent = `${imc.toFixed(2)} IMC`;
         
         // Estilizando o elemento
         imcH.style.color = 'black'; // Cor do texto

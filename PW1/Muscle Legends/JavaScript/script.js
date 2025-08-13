@@ -47,7 +47,6 @@ document.querySelector('form').addEventListener('submit', function(event) { //Pe
         senha: document.getElementById('senha').value,
         genero: document.querySelector('input[name="genero"]:checked')?.value || '',
         estado: document.getElementById('estado').value,
-        mensagem: document.getElementById('menssagem').value,
         pesocad: document.getElementById('peso-cad').value,
         alturac: document.getElementById('alturac').value,
         idade: idade
