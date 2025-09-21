@@ -48,7 +48,7 @@ public class EXWhile {
         while(controle_f <= finaln){
             if(controle_f % 2 != 0){
                 controle_f ++;
-                quantia ++;
+                quantia += controle_f;
             }else{
                 controle_f ++;
             }
