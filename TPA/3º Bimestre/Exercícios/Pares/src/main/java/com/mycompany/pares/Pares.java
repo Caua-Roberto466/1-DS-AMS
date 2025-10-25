@@ -6,7 +6,7 @@ public class Pares {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int[] numeros = new int[10];
-        int[] pares = new int[5];
+        int[] pares = new int[10];
         int contadorPares = 0;
         
         System.out.println("Digite os números");
