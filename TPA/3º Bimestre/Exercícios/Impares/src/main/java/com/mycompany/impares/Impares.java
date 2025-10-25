@@ -7,7 +7,7 @@ public class Impares {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int[] numeros = new int[10];
-        int[] impares = new int[5];
+        int[] impares = new int[10];
         int contadorimpares = 0;
         
         System.out.println("Digite os números");
