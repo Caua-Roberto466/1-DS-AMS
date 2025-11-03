@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Idade</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            background-color: #404040;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 200%;
+        }
+        .men{
+            width: 60%;
+            margin: auto;
+            background-color: white;
+            padding: 2%;
+            border-radius: 15px;
+            margin-bottom: 6%;
+        }
+        #mensagem{
+            font-size: 170%;
+            text-align: center;
+            font-weight: bolder;
+        }
+        a{
+            color: white;
+            margin-top: 7%;
+            text-decoration: none;
+            font-size: 150%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculadora de Idade</h1>
+    <div class="men">
+        <p id="mensagem"></p>
+    </div>
+    <div class="a">
+        <a href="par_impar.html">Vá para a próxima atividade</a>
+    </div>
+
+    <script>
+        let aniversário = +prompt("Você fez aniversário esse ano? 1 - Sim  2 - Não");
+        let atual = +prompt("Em que ano estamos?");
+        let nascimento = +prompt("Em que ano você nasceu?");
+        let idade = 0
+        let mensagem = document.getElementById("mensagem")
+        if(aniversário == 1){
+            idade = atual - nascimento;
+            mensagem.textContent = `Você já fez aniversário esse ano, então já tem ${idade}`
+        }else if(aniversário == 2){
+            idade = (atual - nascimento) - 1;
+            mensagem.textContent = `Você ainda vai fazer aniversário esse ano, então tem ${idade}, agurade mais um pouco e você vai ter ${idade + 1}`;
+        }else{
+            alert("[ERRO!!] Valores inválidos! Por favor escolha entre 1 e 2, atualiza a página e tente novamente")
+        }
+    </script>
+</body>
+</html>

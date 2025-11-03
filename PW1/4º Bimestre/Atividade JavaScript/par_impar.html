@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par ou Impar</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            background-color: #404040;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 200%;
+        }
+        .men{
+            width: 60%;
+            margin: auto;
+            background-color: white;
+            padding: 2%;
+            border-radius: 15px;
+            margin-bottom: 6%;
+        }
+        #mensagem{
+            font-size: 170%;
+            text-align: center;
+            font-weight: bolder;
+        }
+        a{
+            color: white;
+            margin-top: 7%;
+            text-decoration: none;
+            font-size: 150%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Par ou Impar</h1>
+    <div class="men">
+        <p id="mensagem"></p>
+    </div>
+    <div class="a">
+        <a href="index.html">Vá para a atividade anterior</a>
+    </div>
+
+    <script>
+        let numero = +prompt("DIgite um número para saber se ele é par ou impar");
+        if(numero % 2 == 0){
+            mensagem.textContent = `O número ${numero} é par, ou seja, dívisível por 2`
+        }else{
+            mensagem.textContent = `O número ${numero} é impar, ou seja, não é divisível por 2`;
+        }
+    </script>
+</body>
+</html>
