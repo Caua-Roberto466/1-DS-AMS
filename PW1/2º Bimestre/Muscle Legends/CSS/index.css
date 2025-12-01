@@ -55,7 +55,7 @@ h3{
 
 .cadsHH {
     flex: 1; /* ocupa menos espaço vertical */
-    max-width: 480; /* largura menor */
+    max-width: 30%; /* largura menor */
     align-self: flex-start; /* garante que fique à esquerda */
     display: flex;
     flex-direction: column; /* botão e texto colados embaixo */
@@ -147,7 +147,10 @@ h3{
   
 }
 
-
+.servico, .servicosC {
+    width: 100%;
+    max-width: 800px;
+}
 
 /*Personalização da tabela*/
 .tabela{
@@ -157,7 +160,7 @@ h3{
     margin-bottom: 50px;
 }
 
-table{
+table{  
     border: 1px black solid;
     width: 600px;
     border-collapse: collapse;
@@ -370,3 +373,16 @@ Carrossel
 .tab-content.active {
     display: block;
 }
+
+@media(max-width: 768px){
+  .cadastro{
+    max-width: 120%;
+  }
+  .carousel{
+    overflow: hidden;
+  }
+  .nossas-academias{
+    display: none;
+  }
+}
+
