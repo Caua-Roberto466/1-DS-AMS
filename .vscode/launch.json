@@ -1,0 +1,105 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AprendendoScanner",
+            "request": "launch",
+            "mainClass": "com.mycompany.aprendendoscanner.AprendendoScanner",
+            "projectName": "AprendendoScanner"
+        },
+        {
+            "type": "java",
+            "name": "CalculandoMatrizes",
+            "request": "launch",
+            "mainClass": "com.mycompany.calculandomatrizes.CalculandoMatrizes",
+            "projectName": "CalculandoMatrizes"
+        },
+        {
+            "type": "java",
+            "name": "CondicoesEmJava",
+            "request": "launch",
+            "mainClass": "com.mycompany.condicoesemjava.CondicoesEmJava",
+            "projectName": "CondicoesEmJava"
+        },
+        {
+            "type": "java",
+            "name": "EXWhile",
+            "request": "launch",
+            "mainClass": "com.mycompany.exwhile.EXWhile",
+            "projectName": "EXWhile"
+        },
+        {
+            "type": "java",
+            "name": "ExSwichCase",
+            "request": "launch",
+            "mainClass": "com.mycompany.exswichcase.ExSwichCase",
+            "projectName": "ExSwichCase"
+        },
+        {
+            "type": "java",
+            "name": "ExercicioGilmar",
+            "request": "launch",
+            "mainClass": "com.mycompany.exerciciogilmar.ExercicioGilmar",
+            "projectName": "ExercicioGilmar"
+        },
+        {
+            "type": "java",
+            "name": "ExerciciosJava2",
+            "request": "launch",
+            "mainClass": "com.mycompany.exerciciosjava2.ExerciciosJava2",
+            "projectName": "ExerciciosJava2"
+        },
+        {
+            "type": "java",
+            "name": "ExerciciosJava",
+            "request": "launch",
+            "mainClass": "com.mycompany.exerciciosjava.ExerciciosJava",
+            "projectName": "ExerciciosJava"
+        },
+        {
+            "type": "java",
+            "name": "ExerciciosSwitchCase",
+            "request": "launch",
+            "mainClass": "com.mycompany.exerciciosswitchcase.ExerciciosSwitchCase",
+            "projectName": "ExerciciosSwitchCase"
+        },
+        {
+            "type": "java",
+            "name": "Impares",
+            "request": "launch",
+            "mainClass": "com.mycompany.impares.Impares",
+            "projectName": "Impares"
+        },
+        {
+            "type": "java",
+            "name": "NomesCrescentes",
+            "request": "launch",
+            "mainClass": "com.mycompany.nomescrescentes.NomesCrescentes",
+            "projectName": "NomesCrescentes"
+        },
+        {
+            "type": "java",
+            "name": "Pares",
+            "request": "launch",
+            "mainClass": "com.mycompany.pares.Pares",
+            "projectName": "Pares"
+        },
+        {
+            "type": "java",
+            "name": "TrabalhandoComMatrizes",
+            "request": "launch",
+            "mainClass": "com.mycompany.trabalhandocommatrizes.TrabalhandoComMatrizes",
+            "projectName": "TrabalhandoComMatrizes"
+        }
+    ]
+}
