@@ -123,7 +123,7 @@ h3{
 .servicosC{
   width: 800px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .card-servicos{
@@ -375,8 +375,11 @@ Carrossel
 }
 
 @media(max-width: 768px){
-  .cadastro{
-    max-width: 120%;
+  .cadsHH{
+    max-width: 60%;
+  }
+  .cadsHH p{
+    display: none;
   }
   .carousel{
     overflow: hidden;
@@ -386,3 +389,74 @@ Carrossel
   }
 }
 
+@media(max-width: 480px){
+  .cadsHH{
+    max-width: 100%;
+  }
+  .convite{
+    display: none;
+  }
+  table, .tabela{
+    width: 470px;
+  }
+  .carousel{
+    width: 470px;
+  }
+  .funcionarios{
+    max-width: 470px;
+  }
+  .servico{
+    width: 480px;
+    margin: auto;
+  }
+  .servicosC{
+    width: 480px;
+  }
+  .card-servicos{
+    max-width: 33%;
+    height: 310px;
+  }
+  .card-servicos:hover{
+    height: 320px;
+    font-size: 19px;
+  }
+  .ser{
+    display: none;
+  }
+}
+
+@media(max-width: 425px){
+  .header_home{
+    height: 590px;
+  }
+  table, .tabela, .carousel, .funcionarios{
+    width: 420px;
+  }
+}
+
+@media(max-width: 375px){
+  table, .tabela, .funcionarios, .carousel{
+    width: 370px;
+  }
+  th, td{
+    font-size: 14px;
+  }
+  .carousel{
+    margin-bottom: 15%;
+  }
+}
+
+@media(max-width:320px){
+  table, .tabela, .funcionarios, .carousel{
+    width: 315px;
+  }
+  th, td{
+    font-size: 12px;
+  }
+  .tabs{
+    gap: 5px;
+  }
+  .tab-btn{
+    padding: 5px 10px;
+  }
+}
